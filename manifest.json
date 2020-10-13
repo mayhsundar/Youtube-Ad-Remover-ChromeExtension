@@ -1,0 +1,12 @@
+{
+  "name": "Youtube ad skipper",
+  "version": "1.0",
+  "description": "Lets Skip the wait for skipping",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["https://*.youtube.com/*", "http://*.youtube.com/*"],
+      "js": ["contentScript.js"]
+    }
+  ]
+}
